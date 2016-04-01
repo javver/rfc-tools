@@ -1,0 +1,30 @@
+{
+  "name": "rfc-tools",
+  "version": "1.0.0",
+  "description": "Tools to process RFC identifiers for mexican invoices.",
+  "license": "MIT",
+  "repository": "javver/rfc-tools",
+  "author": {
+    "name": "Javier Cardona",
+    "email": "javiercnsj@gmail.com",
+    "url": "javver.github.io/rfc-tools"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && nyc ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.12.0",
+    "xo": "^0.12.1",
+    "nyc": "^6.1.1"
+  }
+}
