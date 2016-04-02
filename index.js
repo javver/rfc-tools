@@ -1,11 +1,9 @@
 'use strict';
 
-module.exports = function (str, opts) {
-	if (typeof str !== 'string') {
-		throw new TypeError('Expected a string');
-	}
+var factory = require('./lib/factory');
+var validator = require('./lib/validator');
 
-	opts = opts || {};
-
-	// return str + ' & ' + (opts.postfix || 'rainbows');
+module.exports = {
+	factory: factory,
+	validator: validator,
 };
